@@ -1,6 +1,5 @@
 streamlit
 joblib
-re
 pdfminer.six
 pytesseract
 pdf2image

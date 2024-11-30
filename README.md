@@ -1,4 +1,4 @@
-# SODScribe - Intelligent Content Extraction and Classification
+# 📖 SODScribe - Intelligent Content Extraction and Classification
 
 **SODScribe** is an intelligent tool designed to extract and classify articles related to the SODS (School of Digital Science) department from university newsletters. Leveraging machine learning algorithms and advanced text extraction techniques, **SODScribe** automates the process of identifying and organizing relevant content, making it easier for users to focus on articles that matter most to the department.
 

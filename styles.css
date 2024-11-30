@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap');
+
+/* Global Styles */
+body {
+    background-color: #fae083;  /* Light yellowish background */
+    color: white;  /* White text globally */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: auto;
+}
+
+/* Headers and Titles */
+h1, h2, h3 {
+    color: #6a88aa;  /* Soft blue for headers */
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+
+/* Sidebar with Gradient */
+[data-testid="stSidebar"] {
+    background: linear-gradient(to bottom right, #6a88aa, #a57a8e, #fd747c, #fae083, #ffb471, #b9bc9d, #92becb);  /* Gradient with palette colors */
+    color: white;  /* White text in sidebar */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+[data-testid="stSidebar"] h2, 
+[data-testid="stSidebar"] h3, 
+[data-testid="stSidebar"] p {
+    color: white;  /* White text for sidebar headers and paragraphs */
+}
+
+/* Buttons */
+button, .stButton button {
+    background-color: #ffb471;  /* Soft orange */
+    color: #290102;  /* Dark red text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, .stButton button:hover {
+    background-color: #fd747c;  /* Soft red for hover effect */
+    color: white;
+}
+
+/* Text Areas */
+.stTextArea textarea {
+    border: 1px solid #6a88aa;  /* Blue border for text areas */
+    border-radius: 5px;
+    padding: 10px;
+    color: #290102;
+    font-size: 1em;
+    transition: border 0.3s ease;
+}
+
+.stTextArea textarea:focus {
+    border-color: #92becb;  /* Soft light blue on focus */
+}
+
+/* File Uploader */
+.stFileUploader {
+    font-size: 1.1em;
+    padding: 15px;
+    border: 2px solid #6a88aa;  /* Blue border */
+    background-color: #fae083;  /* Light yellow background */
+    border-radius: 8px;
+}
+
+.stFileUploader button {
+    font-size: 1.1em;
+    padding: 10px 20px;
+    background-color: #ffb471;  /* Orange button */
+    border-radius: 5px;
+}
+
+/* Success/Warning/Info */
+[data-testid="stSuccess"] {
+    color: #2e8b57;  /* Green for success messages */
+}
+
+[data-testid="stWarning"] {
+    color: #ff6347;  /* Red for warnings */
+}
+
+/* Footer-like section */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #6a88aa;  /* Blue footer text */
+    padding: 20px 0;
+    background-color: #b9bc9d;  /* Greenish background */
+}
+
+/* Custom Styling for Links */
+a {
+    color: #fd747c;  /* Red for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #92becb;  /* Soft blue on hover */
+    text-decoration: underline;
+}

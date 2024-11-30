@@ -15,8 +15,8 @@ with open("styles.css") as css_file:
 # Load models
 @st.cache_resource
 def load_models():
-    tfidf_vectorizer = joblib.load(r"C:\Users\medha\Downloads\tfidf_vectorizer.joblib")
-    model = joblib.load(r"C:\Users\medha\Downloads\best_model.joblib")
+    tfidf_vectorizer = joblib.load("tfidf_vectorizer.joblib")
+    model = joblib.load("best_model.joblib")
     return tfidf_vectorizer, model
 
 # Load the models at the start
